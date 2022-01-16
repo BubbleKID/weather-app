@@ -1,58 +1,40 @@
-.header {
-  padding: 20px 40px;
-  display: flex;
-  justify-content: space-between;
-}
-.header__state__degree {
-  display: block;
-  color: #FFFFFF;
-  font-size: 80px;
-}
-
-.header__state__weather {
-  letter-spacing: 3px;
-  display: block;
-  color: #FFFFFF;
-  font-size: 20px;
-  font-weight: 100;
-}
-
-.header__info {
-  display: flex;
-  flex: auto;
-}
-
-.header__info__block {
-  width: 100px;
-}
-
-.header__info__block__text {
-  letter-spacing: 3px;
-  display: block;
-  color: #FFFFFF;
-  font-size: 10px;
-  font-weight: 100;
-}
-
-.header__info__block__number {
-  letter-spacing: 3px;
-  display: block;
-  color: #FFFFFF;
-  font-size: 12px;
-}
- 
-.header__info__separator {
-  margin: 0 20px;
-  border-left: 1px solid #FFFFFF;
-  height: 40px;
-}
-
-.header__location {
-  margin-top: 20px;
-}
-
-.header__location__text {
-  letter-spacing: 3px;
-  color: #FFFFFF;
-  font-size: 20px;
-}
+.header
+  padding: 20px 40px
+  display: flex
+  justify-content: space-between
+  &__state__degree 
+    display: block
+    color: #FFFFFF
+    font-size: 80px
+  &__state__weather
+    letter-spacing: 3px
+    display: block
+    color: #FFFFFF
+    font-size: 20px
+    font-weight: 100
+  &__info 
+    display: flex
+    flex: auto
+    &__block
+      width: 100px
+      &__text
+        letter-spacing: 3px
+        display: block
+        color: #FFFFFF
+        font-size: 10px
+        font-weight: 100
+      &__number
+        letter-spacing: 3px
+        display: block
+        color: #FFFFFF
+        font-size: 12px 
+    &__separator 
+      margin: 0 20px
+      border-left: 1px solid #FFFFFF
+      height: 40px
+  &__location
+    margin-top: 20px
+    &__text
+      letter-spacing: 3px
+      color: #FFFFFF
+      font-size: 20px
